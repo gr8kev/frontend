@@ -49,7 +49,7 @@ export default function Signup() {
         autoClose: 3000,
       });
 
-      navigate("/login");
+      navigate("/");
     } catch (err) {
       console.error(err);
       toast.error(
